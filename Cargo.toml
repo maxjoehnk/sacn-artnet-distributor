@@ -1,0 +1,15 @@
+[package]
+name = "sacn-artnet-distributor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sacn-unofficial = "0.9"
+artnet_protocol = "0.4"
+color-eyre = "0.6"
+toml = "0.8"
+serde = { version = "1", features = ["derive"] }
+serde_derive = "1"
+tracing = "0.1"
+tracing-subscriber = "0.3"
+indexmap = "2.3"
