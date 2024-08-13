@@ -313,7 +313,6 @@ version = "0.1.0"
 dependencies = [
  "artnet_protocol",
  "color-eyre",
- "indexmap",
  "sacn-unofficial",
  "serde",
  "serde_derive",
